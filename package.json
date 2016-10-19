@@ -26,6 +26,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "aglio-theme-olio": "^1.6.3",
     "async": "^1.4.2",
     "chokidar": "^1.4.3",
     "colors": "^1.1.0",
