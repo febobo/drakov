@@ -1,0 +1,8 @@
+extends layout
+block content
+    nav.navbar.navbar-light.bg-faded
+        a.navbar-brand= 'ApiKit'
+        ul.nav.navbar-nav
+            each menu in menus
+                li.nav-item
+                    a.nav-link(href=menu.url)= menu.name
